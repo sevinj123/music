@@ -1,0 +1,70 @@
+.logo{
+    width: 30%;
+    color: $white-color;
+}
+.la-bars{
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    color: $white-color;
+}
+.episode{
+    text-align: center;
+    height: 90vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    h1{
+        width: 50%;
+        color: $white-color;
+    }
+    p{
+        color: $white-color;
+    }
+    button{
+        padding: 12px 24px;
+        background-color: $red-color;
+        color: white;
+        border: 0 solid $red-color;
+    }
+}
+
+#music{
+    .music-box{
+       display: flex;
+       margin: 3% auto 0;
+       width: 60%;
+       height: 60px;
+    }
+}
+#music{
+    .recent-podcasts{
+        text-align: center;
+        color: $black-color;
+        font-size: 30px;
+    }
+    .music-box-2{
+        width: 60%;
+        height: 50px;
+    }
+}
+.create-web-page{
+    color: $orange-color;
+}
+
+#featured-guests{
+  height: 80vh;
+  .fear-gues-people-inf{
+    p{
+        width: 60%;
+        margin: 0 auto;
+    }
+  }
+  .megan-smith{
+    width: 30%;
+    height: 15vh;
+    margin: 10px auto;
+    border-radius: 50%;
+  }
+}
